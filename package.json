@@ -44,7 +44,7 @@
     "webpack": "^5.97.1"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "node --max_old_space_size=4096 node_modules/.bin/craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
@@ -68,6 +68,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "web-vitals": "^4.2.4"
   }
 }
