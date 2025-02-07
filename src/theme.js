@@ -1,16 +1,16 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#007bff',
+      main: "#007bff",
     },
     secondary: {
-      main: '#ff4081',
+      main: "#ff4081",
     },
   },
   typography: {
-    fontFamily: 'Arial, sans-serif',
+    fontFamily: "Arial, sans-serif",
   },
   components: {
     MuiButton: {
